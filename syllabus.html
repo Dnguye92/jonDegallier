@@ -14,7 +14,7 @@
 	
 </head>
 <body>
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -41,7 +41,7 @@
 	</nav>
 
 	<!-- DIV CONTAINER FOR SYLLABUS TABLE -->
-	<div align="center">
+	<div class="header" align="center">
           <table class="table-responsive" summary="Teacher Info and class name/section" width="80%" cellspacing=0 cellpadding=4 border="0">
             <tr>
               <td colspan="4" align="center">
@@ -55,7 +55,7 @@
             </tr>
             <tr> 
               <td align="center" colspan="4"> 
-		<h2><span class="bold">Intro. to Comp. Programming (C++)</span></h2>
+				<h2><span class="bold"><span id="typed-header"></span><span class="typed-cursor"></span></span></h2>
               </td>
             </tr>
             <tr>
@@ -225,6 +225,19 @@
           </table>
 	</div>
 
+	<script>
+		$(function(){
+	      $('#typed-header').typed({
+	        strings: ['Intro. to Comp. Programming (C++)'],
+	        typeSpeed: 100,
+	        loop: true,
+	        startDelay: 500,
+	        backDelay: 2000,
+	        showCursor: true,
+	        cursorChar: "|"
+	      })
+	    })
+    </script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/main.js"></script>
 </body>

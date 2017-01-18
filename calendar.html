@@ -14,7 +14,7 @@
 	
 </head>
 <body>
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -41,21 +41,21 @@
 	</nav>
 
 	<!-- CONTAINER FOR TEACHER INFO -->
-	<div align="center">
+	<div class="header" align="center">
           <table class="table-responsive" summary="Teacher Info and class name/section" width="80%" cellspacing=0 cellpadding=4 border="0">
             <tr>
               <td colspan="4" align="center">
-                <h2><span class="bold">Syllabus</span></h2>
+                <h2><span class="bold">Calendar</span></h2>
               </td>
             </tr>
-            <tr>
+            <!-- <tr>
               <td align="center" colspan="4">
 		<h4><span class="bold">Spring 2017&nbsp;&nbsp;&nbsp;Course No:&nbsp;CS102 - Sections  068957 and 068958&nbsp;&nbsp;&nbsp;Section:&nbsp;cs102spring17&nbsp;&nbsp;&nbsp;3 Units</span></h4>
               </td>
-            </tr>
+            </tr> -->
             <tr> 
               <td align="center" colspan="4"> 
-		<h2><span class="bold">Intro. to Comp. Programming (C++)</span></h2>
+		            <h2><span class="bold"><span id="typed-header"></span><span class="typed-cursor"></span></span></h2>
               </td>
             </tr>
             <tr>
@@ -75,10 +75,13 @@
               <td align="right" valign=top><b>Office Hours:</b>&nbsp;</td>
               <td valign=top>Email</td>
             </tr>
+            <td colspan="4">
+                <hr>
+            </td>
           </table>
   </div>
   <!-- END CONTAINER FOR TEACHER INFO -->
-  <hr>
+
   <!-- CALENDAR TABLE -->
   <div class="container">
     <div class="row">
@@ -158,6 +161,20 @@
           </div>
         </div>
         <!-- END CALENDAR TABLE -->
+
+  <script>
+    $(function(){
+      $('#typed-header').typed({
+        strings: ['Intro. to Comp. Programming (C++)'],
+        typeSpeed: 100,
+        loop: true,
+        startDelay: 500,
+        backDelay: 2000,
+        showCursor: true,
+        cursorChar: "|"
+      })
+    })
+  </script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/main.js"></script>
 </body>

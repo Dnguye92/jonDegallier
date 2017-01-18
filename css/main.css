@@ -90,7 +90,7 @@ hr {
 	font-weight: 700;
 }
 #about {
-	padding: 5em 0 5em 0;
+	margin: 15em 0 5em 0;
 }
 
 .img-responsive {
@@ -105,6 +105,12 @@ h4 {
 	line-height: 130%;
 }
 
+/*
+-----SYLLABUS STYLING
+*/
+.header {
+	margin: 10em 0 5em 0;
+}
 
 /*
 -----TYPED.JS CURSOR STYLING
@@ -155,5 +161,22 @@ h4 {
 	margin-left: 4em;
 }
 .container #calendarTable {
-	margin: 1em 0em 1em 8em;
+	margin: 3em 0em 3em 8em;
+}
+#calendarTable {
+	line-height: 150%;
+}
+
+/*
+-----ASSIGNMENT SECTION STYLING
+*/
+#assignments {
+	background-color: #fff;
+	height: 1000px;
+	padding: 5em 0 5em 0;
+}
+#assignments h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 48px;
 }
