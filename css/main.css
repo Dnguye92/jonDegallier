@@ -23,6 +23,14 @@ body {
 	background-color: #E6FFFF;
 	font-family: 'Nunito', sans-serif;
 }
+hr {
+	border-color: #3E474F;
+}
+.table-responsive {
+	border-color: transparent;
+	border: none;
+}
+
 /*Navbar styling*/
 .navbar {
 	border-radius: 0px;
@@ -132,4 +140,14 @@ h4 {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+/*
+-----CALENDAR STYLING
+*/
+.container h2 {
+	text-align: center;
+}
+.tableContainer tbody{
+	padding-left: 4em;
 }
