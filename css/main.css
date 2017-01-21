@@ -34,6 +34,11 @@ hr {
 	font-weight: 700;
 }
 
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
 /*Navbar styling*/
 .navbar {
 	border-radius: 0px;
@@ -45,6 +50,7 @@ hr {
 	-webkit-transition: 0.2s ease-in;
 	-moz-transition: 0.2s ease-in;
 	-ms-transition: 0.2s ease-in;
+	margin-top: 10px;
 }
 .navbar-brand h2:hover {
 	color: white;
@@ -80,6 +86,10 @@ hr {
 	-webkit-transition: 0.2s ease-out;
 	-moz-transition: 0.2s ease-out;
 	-ms-transition: 0.2s ease-out;
+}
+
+li:nth-child(5) {
+	cursor: pointer;
 }
 
 /*
@@ -206,6 +216,7 @@ h4 {
 }
 
 
+
 /*
 -----OVERRIDING BOOTSTRAP COLLAPSE CLASS
 */
@@ -233,6 +244,7 @@ h4 {
   .navbar-nav {
       float: none!important;
       margin-top: 7.5px;
+      padding: 0;
   }
   .navbar-nav>li {
       float: none;
@@ -244,6 +256,32 @@ h4 {
   .collapse.in{
       display:block !important;
   }
+}
+
+.navbar-header {
+	margin-top: 20px;
+}
+
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+	padding-top: 1.5em;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+	border-color: transparent;
+	float: right;
+	background-color: #3E474F;
+	opacity: 0.9;
+}
+
+.navbar-toggle{
+	padding-top: 1em;
 }
 
 #snackbar {
@@ -286,4 +324,21 @@ h4 {
 @keyframes fadeout {
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
+}
+
+/*
+QUERIES FOR 1240PX
+*/
+@media (max-width: 1240px) {
+	#about {
+		text-align: center;
+		margin: 10em 0 5em 0;
+	}
+	#jon {
+		display: block;
+		margin: 0 auto;
+	}
+	#splitLeft {
+		padding-bottom: 2em;
+	}
 }
