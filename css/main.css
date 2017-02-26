@@ -257,6 +257,21 @@ td {
 	text-align: left;
 }
 
+/*
+-----FOOTER STYLING
+*/
+footer {
+	background-color: #3E474F;
+	height: 8em;
+}
+
+#creatorInfo {
+	padding: 2em 0 0 2em;
+}
+
+#creatorInfo h4 {
+	color: #fff;
+}
 
 /*
 -----OVERRIDING BOOTSTRAP COLLAPSE CLASS
