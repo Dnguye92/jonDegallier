@@ -26,6 +26,10 @@ body {
 hr {
 	border-color: #3E474F;
 }
+
+#student, #totalPoints, #percentage {
+	padding: 1em 4.5em 0 0.5em;
+}
 .table-responsive {
 	border-color: transparent;
 	border: none;
@@ -217,7 +221,7 @@ h4 {
 
 #studentDiv {
 	float: left;
-	margin-top: 4em;
+	margin-top: 3em;
 	width: 50%;
 }
 
@@ -231,7 +235,7 @@ h4 {
   	width: 40%;
   	margin: auto;
   	display: inline-block;
-  	color: #3E474F;
+  	color: #fff;
 }
 
 #studentButton {

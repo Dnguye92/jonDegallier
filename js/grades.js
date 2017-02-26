@@ -393,7 +393,7 @@ studentButton.addEventListener('click', () => {
 		if(studentId == studentGrades[i].idNum) {
 			document.getElementById('student').innerHTML = studentGrades[i].idNum;
 			document.getElementById('totalPoints').innerHTML = studentGrades[i].totalPoints;
-			document.getElementById('percentage').innerHTML = studentGrades[i].percent;
+			document.getElementById('percentage').textContent = studentGrades[i].percent + '%';
 			return
 		} else {
 			document.getElementById('student').innerHTML = 'Invalid Student ID!!';
