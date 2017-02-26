@@ -397,6 +397,8 @@ studentButton.addEventListener('click', () => {
 			return
 		} else {
 			document.getElementById('student').innerHTML = 'Invalid Student ID!!';
+			document.getElementById('totalPoints').textContent = '';
+			document.getElementById('percentage').textContent = '';
 		}
 	}
 })

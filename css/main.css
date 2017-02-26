@@ -253,7 +253,7 @@ h4 {
 	margin-bottom: 20px;
 }
 
-td {
+#student, #totalPoints, #percentage{
 	text-align: left;
 }
 
