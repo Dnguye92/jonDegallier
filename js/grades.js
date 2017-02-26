@@ -36,134 +36,134 @@ const studentGrades = [
 		percent: 99
 	},
 	{
-		id: ,
-		totalPoints: ,
+		id: 7748,
+		totalPoints: 40.5,
+		percent: 99
+	},
+	{
+		id: 8477,
+		totalPoints: 40.5,
+		percent: 99
+	},
+	{
+		id: 0146,
+		totalPoints: 40,
+		percent: 98
+	},
+	{
+		id: 9624,
+		totalPoints: 40,
+		percent: 98
+	},
+	{
+		id: 6919,
+		totalPoints: 40,
+		percent: 98 
+	},
+	{
+		id: 6678,
+		totalPoints: 40,
 		percent: 
 	},
 	{
-		id: ,
-		totalPoints: ,
+		id: 6995,
+		totalPoints: 98,
 		percent: 
 	},
 	{
-		id: ,
-		totalPoints: ,
+		id: 1284,
+		totalPoints: 40,
 		percent: 
 	},
 	{
-		id: ,
-		totalPoints: ,
+		id: 8949,
+		totalPoints: 98,
 		percent: 
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 5416,
+		totalPoints: 39.5,
+		percent: 96
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 6856,
+		totalPoints: 39.5,
+		percent: 96
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 1140,
+		totalPoints: 39.5,
+		percent: 96
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 3668,
+		totalPoints: 39.5,
+		percent: 96
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 5813,
+		totalPoints: 39.5,
+		percent: 96
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 5029,
+		totalPoints: 39.5,
+		percent: 96
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 6619,
+		totalPoints: 39.5,
+		percent: 96
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 3856,
+		totalPoints: 39,
+		percent: 95
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 8439,
+		totalPoints: 39,
+		percent: 95
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 1720,
+		totalPoints: 39,
+		percent: 95
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 2823,
+		totalPoints: 39,
+		percent: 95
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 7534,
+		totalPoints: 39,
+		percent: 95
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 6697,
+		totalPoints: 39,
+		percent: 95
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 3209,
+		totalPoints: 39,
+		percent: 95
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 6092,
+		totalPoints: 39,
+		percent: 95
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 3472,
+		totalPoints: 39,
+		percent: 95
 	},
 	{
-		id: ,
-		totalPoints: ,
-		percent: 
-	},
-	{
-		id: ,
-		totalPoints: ,
-		percent: 
-	},
-	{
-		id: ,
-		totalPoints: ,
-		percent: 
-	},
-	{
-		id: ,
-		totalPoints: ,
-		percent: 
-	},
-	{
-		id: ,
-		totalPoints: ,
-		percent: 
-	},
-	{
-		id: ,
-		totalPoints: ,
-		percent: 
+		id: 8550,
+		totalPoints: 39,
+		percent: 95
 	},
 	{
 		id: ,
