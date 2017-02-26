@@ -27,9 +27,6 @@ hr {
 	border-color: #3E474F;
 }
 
-#student, #totalPoints, #percentage {
-	padding: 1em 4.5em 0 0.5em;
-}
 .table-responsive {
 	border-color: transparent;
 	border: none;
@@ -235,7 +232,7 @@ h4 {
   	width: 40%;
   	margin: auto;
   	display: inline-block;
-  	color: #fff;
+  	color: #3E474F;
 }
 
 #studentButton {
@@ -251,11 +248,14 @@ h4 {
 }
 
 .table {
-	width: 40%;
+	width: 45%;
 	float: right;
 	margin-bottom: 20px;
 }
 
+td {
+	text-align: left;
+}
 
 
 /*

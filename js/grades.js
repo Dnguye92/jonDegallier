@@ -392,7 +392,7 @@ studentButton.addEventListener('click', () => {
 	for(i = 0; i < studentGrades.length; i++) {
 		if(studentId == studentGrades[i].idNum) {
 			document.getElementById('student').innerHTML = studentGrades[i].idNum;
-			document.getElementById('totalPoints').innerHTML = studentGrades[i].totalPoints;
+			document.getElementById('totalPoints').textContent = studentGrades[i].totalPoints + ' / 41 pts';
 			document.getElementById('percentage').textContent = studentGrades[i].percent + '%';
 			return
 		} else {
