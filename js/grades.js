@@ -1,387 +1,402 @@
 const studentGrades = [
 	{
-		id: 7911,
+		idNum: 7911,
 		totalPoints: 41,
 		percent: 100
 	},
 	{
-		id: 3956,
+		idNum: 3956,
 		totalPoints: 41,
 		percent: 100
 	},
 	{
-		id: 2557,
+		idNum: 2557,
 		totalPoints: 41,
 		percent: 100
 	},
 	{
-		id: 9904,
+		idNum: 9904,
 		totalPoints: 41,
 		percent: 100
 	},
 	{
-		id: 2728,
+		idNum: 2728,
 		totalPoints: 41,
 		percent: 100
 	},
 	{
-		id: 2330,
+		idNum: 2330,
 		totalPoints: 41,
 		percent: 100
 	},
 	{
-		id: 1250,
+		idNum: 1250,
 		totalPoints: 41,
 		percent: 100
 	},
 	{
-		id: 5359,
+		idNum: 5359,
 		totalPoints: 41,
 		percent: 100
 	},
 	{
-		id: 5852,
+		idNum: 5852,
 		totalPoints: 41,
 		percent: 100
 	},
 	{
-		id: 4218,
+		idNum: 4218,
 		totalPoints: 40.5,
 		percent: 99
 	},
 	{
-		id: 7748,
+		idNum: 7748,
 		totalPoints: 40.5,
 		percent: 99
 	},
 	{
-		id: 8477,
+		idNum: 8477,
 		totalPoints: 40.5,
 		percent: 99
 	},
 	{
-		id: 0146,
+		idNum: 0146,
 		totalPoints: 40,
 		percent: 98
 	},
 	{
-		id: 9624,
+		idNum: 9624,
 		totalPoints: 40,
 		percent: 98
 	},
 	{
-		id: 6919,
+		idNum: 6919,
 		totalPoints: 40,
 		percent: 98 
 	},
 	{
-		id: 6678,
+		idNum: 6678,
 		totalPoints: 40,
-		percent: 
+		percent: 98
 	},
 	{
-		id: 6995,
-		totalPoints: 98,
-		percent: 
-	},
-	{
-		id: 1284,
+		idNum: 6995,
 		totalPoints: 40,
-		percent: 
+		percent: 98
 	},
 	{
-		id: 8949,
-		totalPoints: 98,
-		percent: 
+		idNum: 1284,
+		totalPoints: 40,
+		percent: 98
 	},
 	{
-		id: 5416,
+		idNum: 8949,
+		totalPoints: 40,
+		percent: 98
+	},
+	{
+		idNum: 5416,
 		totalPoints: 39.5,
 		percent: 96
 	},
 	{
-		id: 6856,
+		idNum: 6856,
 		totalPoints: 39.5,
 		percent: 96
 	},
 	{
-		id: 1140,
+		idNum: 1140,
 		totalPoints: 39.5,
 		percent: 96
 	},
 	{
-		id: 3668,
+		idNum: 3668,
 		totalPoints: 39.5,
 		percent: 96
 	},
 	{
-		id: 5813,
+		idNum: 5813,
 		totalPoints: 39.5,
 		percent: 96
 	},
 	{
-		id: 5029,
+		idNum: 5029,
 		totalPoints: 39.5,
 		percent: 96
 	},
 	{
-		id: 6619,
+		idNum: 6619,
 		totalPoints: 39.5,
 		percent: 96
 	},
 	{
-		id: 3856,
+		idNum: 3856,
 		totalPoints: 39,
 		percent: 95
 	},
 	{
-		id: 8439,
+		idNum: 8439,
 		totalPoints: 39,
 		percent: 95
 	},
 	{
-		id: 1720,
+		idNum: 1720,
 		totalPoints: 39,
 		percent: 95
 	},
 	{
-		id: 2823,
+		idNum: 2823,
 		totalPoints: 39,
 		percent: 95
 	},
 	{
-		id: 7534,
+		idNum: 7534,
 		totalPoints: 39,
 		percent: 95
 	},
 	{
-		id: 6697,
+		idNum: 6697,
 		totalPoints: 39,
 		percent: 95
 	},
 	{
-		id: 3209,
+		idNum: 3209,
 		totalPoints: 39,
 		percent: 95
 	},
 	{
-		id: 6092,
+		idNum: 6092,
 		totalPoints: 39,
 		percent: 95
 	},
 	{
-		id: 3472,
+		idNum: 3472,
 		totalPoints: 39,
 		percent: 95
 	},
 	{
-		id: 8550,
+		idNum: 8550,
 		totalPoints: 39,
 		percent: 95
 	},
 	{
-		id: 0335,
+		idNum: 0335,
 		totalPoints: 38.5,
 		percent: 94
 	},
 	{
-		id: 6180,
+		idNum: 6180,
 		totalPoints: 38,
 		percent: 93
 	},
 	{
-		id: 4868,
+		idNum: 4868,
 		totalPoints: 38,
 		percent: 93
 	},
 	{
-		id: 2510,
+		idNum: 2510,
 		totalPoints: 37.5,
 		percent: 91
 	},
 	{
-		id: 1388,
+		idNum: 1388,
 		totalPoints: 37.5,
 		percent: 91
 	},
 	{
-		id: 7834,
+		idNum: 7834,
 		totalPoints: 37,
 		percent: 90
 	},
 	{
-		id: 5732,
+		idNum: 5732,
 		totalPoints: 37,
 		percent: 90
 	},
 	{
-		id: 4523,
+		idNum: 4523,
 		totalPoints: 37,
 		percent: 90
 	},
 	{
-		id: 3665,
+		idNum: 3665,
 		totalPoints: 37,
 		percent: 90
 	},
 	{
-		id: 2687,
+		idNum: 2687,
 		totalPoints: 36.5,
 		percent: 89
 	},
 	{
-		id: 3477,
+		idNum: 3477,
 		totalPoints: 36.5,
 		percent: 89
 	},
 	{
-		id: 0966,
+		idNum: 0966,
 		totalPoints: 36.5,
 		percent: 89
 	},
 	{
-		id: 9991,
+		idNum: 9991,
 		totalPoints: 36,
 		percent: 88
 	},
 	{
-		id: 0712,
+		idNum: 0712,
 		totalPoints: 36,
 		percent: 88
 	},
 	{
-		id: 1911,
+		idNum: 1911,
 		totalPoints: 35.5,
 		percent: 87
 	},
 	{
-		id: 0176,
+		idNum: 0176,
 		totalPoints: 35.5,
 		percent: 87
 	},
 	{
-		id: 7932,
+		idNum: 7932,
 		totalPoints: 35.5,
 		percent: 87
 	},
 	{
-		id: 7747,
+		idNum: 7747,
 		totalPoints: 35.5,
 		percent: 87
 	},
 	{
-		id: 4403,
+		idNum: 4403,
 		totalPoints: 35,
 		percent: 85
 	},
 	{
-		id: 1644,
+		idNum: 1644,
 		totalPoints: 35 ,
 		percent: 85
 	},
 	{
-		id: 6725,
+		idNum: 6725,
 		totalPoints: 34.5,
 		percent: 84
 	},
 	{
-		id: 0689,
+		idNum: 0689,
 		totalPoints: 34.5,
 		percent: 84
 	},
 	{
-		id: 3367,
+		idNum: 3367,
 		totalPoints: 34,
 		percent: 83
 	},
 	{
-		id: 4966,
+		idNum: 4966,
 		totalPoints: 34,
 		percent: 83
 	},
 	{
-		id: 7529,
+		idNum: 7529,
 		totalPoints: 34,
 		percent: 83
 	},
 	{
-		id: 0925,
+		idNum: 0925,
 		totalPoints: 32,
 		percent: 78
 	},
 	{
-		id: 6687,
+		idNum: 6687,
 		totalPoints: 31,
 		percent: 76
 	},
 	{
-		id: 2744,
+		idNum: 2744,
 		totalPoints: 30.5,
 		percent: 74
 	},
 	{
-		id: 4669,
+		idNum: 4669,
 		totalPoints: 29.5,
 		percent: 72
 	},
 	{
-		id: 4844,
+		idNum: 4844,
 		totalPoints: 29,
 		percent: 71
 	},
 	{
-		id: 6859,
+		idNum: 6859,
 		totalPoints: 28.5,
 		percent: 70
 	},
 	{
-		id: 9038,
+		idNum: 9038,
 		totalPoints: 27,
 		percent: 66
 	},
 	{
-		id: 3999,
+		idNum: 3999,
 		totalPoints: 26,
 		percent: 63
 	},
 	{
-		id: 3239,
+		idNum: 3239,
 		totalPoints: 26,
 		percent: 63
 	},
 	{
-		id: 8947,
+		idNum: 8947,
 		totalPoints: 25.5,
 		percent: 62
 	},
 	{
-		id: 0171,
+		idNum: 0171,
 		totalPoints: 25,
 		percent: 61
 	},
 	{
-		id: 6339,
+		idNum: 6339,
 		totalPoints: 24.5,
 		percent: 60
 	},
 	{
-		id: 6251,
+		idNum: 6251,
 		totalPoints: 19,
 		percent: 46
 	},
 	{
-		id: 1469,
+		idNum: 1469,
 		totalPoints: 14,
 		percent: 34
 	},
 	{
-		id: 7708,
+		idNum: 7708,
 		totalPoints: 5,
 		percent: 12
 	},
 	{
-		id: 6103,
+		idNum: 6103,
 		totalPoints: 4,
 		percent: 10
 	}
 ]
+studentButton.addEventListener('click', () => {
+	let studentButton = document.getElementById('studentButton');
+	let studentId = document.getElementById('studentId').value;
+
+	for(i = 0; i < studentGrades.length; i++) {
+		if(studentId == studentGrades[i].idNum) {
+			document.getElementById('student').innerHTML = studentGrades[i].idNum;
+			document.getElementById('totalPoints').innerHTML = studentGrades[i].totalPoints;
+			document.getElementById('percentage').innerHTML = studentGrades[i].percent;
+			return
+		} else {
+			document.getElementById('student').innerHTML = 'Invalid Student ID!!';
+		}
+	}
+})
